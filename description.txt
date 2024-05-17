@@ -1,0 +1,15 @@
+I had implemented this assigment using React .
+I had made Display  component in  component  folder where the whole code implemented 
+IT   is responsive application
+It  contain an input file acceptance  which accept excel  file  as my laptop  is not able to generate excel file so I used dummy file which contain same attribute
+Then I use state mmanagement system  where I update the state   with uploaded file  of excel file .
+and is re render if state is update .
+I parse the data using papaparse 
+It is working  with my dummy excel file .
+I included pagination  with  th logic...
+  const indexOfLastItem = currentPage * itemsPerPage;
+  const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+  const currentItems = csvData.slice(indexOfFirstItem, indexOfLastItem);
+  so we updtate the curent page variable using state management system  and get new bunch of data
+  I applied tailwind css
+  I applied font icon in  this project for design purpose
